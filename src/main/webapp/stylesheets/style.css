@@ -23,9 +23,9 @@ a {
 
 #legend_operational0 div{
 	padding:5;
-	
+}
 #grid {
-  height: 336px;
+  height: 200px;
   width: 100%;
 }
 
@@ -52,8 +52,6 @@ a {
   font-size: .80em;
   font-weight: normal;
 }
-
-#grid .dgrid-row-odd {
+.dgrid-row-odd {
   background: #F2F5F9;
-}
 }
