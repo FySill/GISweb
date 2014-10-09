@@ -1,5 +1,7 @@
 package fy.gisweb.action;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -15,8 +17,15 @@ public class BasePointsAction extends ActionSupport {
 	// private BasePointsService basePointsService;
 	public String BasePoints() {
 		request = ServletActionContext.getRequest();
-		System.out.println(request.getHeaderNames());
+		try {
+			System.out.println(request.getInputStream());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		// Array[] rings = requests
+		
 		// List<BasePoints> data = basePointsService.generateBasePoints(rings);
 		return SUCCESS;
 	}
