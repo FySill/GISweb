@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 validator.Checked=src/struts.xml,src/main/webapp/javascripts/jquery-2.1.1.min.js,pom.xml,src/main/java/fy/gisweb/service/impl/BasePoints.java,src/struts-map.xml
 validator.Unchecked=
+=======
+eclipse.preferences.version=1
+validator.Checked=src/main/webapp/javascripts/jquery-2.1.1.min.js
+validator.Unchecked=
+>>>>>>> 26f531753d3bc48c0047d8866a8af1d03ba30e47
